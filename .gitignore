@@ -27,7 +27,7 @@ override.tf.json
 terraform.rc
 
 # Ignore lock files for Terraform module dependencies (commit this!)
-!.terraform.lock.hcl
+.terraform.lock.hcl
 
 # (Optional) Ignore macOS system files
 .DS_Store
