@@ -5,8 +5,18 @@
 *.tfstate
 *.tfstate.*
 
+<<<<<<< HEAD
 # Ignore lock files
 .terraform.lock.hcl
 
 # documents
 *.doc
+=======
+
+# Ignore lock files for Terraform module dependencies (commit this!)
+.terraform.lock.hcl
+
+# documents
+*.doc
+
+>>>>>>> cd365363008f07e8ae786ecabced920c8cf40bfa
