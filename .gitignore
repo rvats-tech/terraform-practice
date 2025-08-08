@@ -1,33 +1,12 @@
 # Ignore Terraform system folder where providers/modules are downloaded
 **/.terraform/*
 
-# Ignore Terraform state files (may contain sensitive info)
+# Ignore Terraform state files 
 *.tfstate
 *.tfstate.*
 
-# Ignore crash logs
-crash.log
-crash.*.log
-
-# Ignore variable files (often contain secrets)
-*.tfvars
-*.tfvars.json
-
-# Ignore override files (local overrides not to be committed)
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Ignore plan output files (if you save them)
-*tfplan*
-
-# Ignore Terraform CLI config files
-.terraformrc
-terraform.rc
-
-# Ignore lock files for Terraform module dependencies (commit this!)
+# Ignore lock files
 .terraform.lock.hcl
 
-# (Optional) Ignore macOS system files
-.DS_Store
+# documents
+*.doc
